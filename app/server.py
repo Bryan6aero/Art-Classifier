@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1ebo8D-HVJo_xchsWCWi3He_t5E2Hnx4F'
 export_file_name = 'export.pkl'
 
-classes = ['photorealism','impressionism','futurism','suprematism','surrealism','orphism','tonalism','cubism','expressionism','fauvism']
+classes = ['photorealism','impressionism','futurism','suprematism','surrealism','orphism','tonalism','cubism','expressionism','fauvism','realism']
 path = Path(__file__).parent
 
 app = Starlette()
